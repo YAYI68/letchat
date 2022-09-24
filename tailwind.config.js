@@ -12,6 +12,7 @@ module.exports = {
         14: '14px',
       },
       backgroundColor: {
+        'home-bg': '#0093E9',
         'main-bg': '#FAFBFB',
         'main-dark-bg': '#20232A',
         'secondary-dark-bg': '#33373E',
@@ -40,6 +41,7 @@ module.exports = {
         590: '590px',
       },
       backgroundImage: {
+        'gradient-pattern': 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)',
         'hero-pattern':
           "url('../public/logo/undraw_data_trends_re_2cdy.svg')",
       },
