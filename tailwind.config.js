@@ -11,7 +11,9 @@ module.exports = {
       fontSize: {
         14: '14px',
       },
+   
       backgroundColor: {
+        'side-bg':'#8EC5FC',
         'home-bg': '#0093E9',
         'main-bg': '#FAFBFB',
         'main-dark-bg': '#20232A',
@@ -41,9 +43,9 @@ module.exports = {
         590: '590px',
       },
       backgroundImage: {
+         'home-gradient': 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+         'side-gradient' :'linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)',
         'gradient-pattern': 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)',
-        'hero-pattern':
-          "url('../public/logo/undraw_data_trends_re_2cdy.svg')",
       },
     },
   },
