@@ -1,7 +1,8 @@
 import React from 'react'
+import { Main } from '../components/Main'
 
 export const Login = () => {
   return (
-    <div>Login</div>
+    <Main>Login</Main>
   )
 }
