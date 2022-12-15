@@ -3,7 +3,7 @@ import { FaUserPlus } from "react-icons/fa";
 import { HiOutlineMenu } from "react-icons/hi";
 export const ChatListHeader = () => {
   return (
-    <div className='h-[4rem] absolute flex  justify-between w-full bg-gray-200 px-3 py-[.15rem] dark:bg-gray-700 '>
+    <div className='h-[4rem] absolute flex  justify-between w-full bg-gray-200 px-3 py-[.15rem] shadow-sm dark:bg-gray-700 '>
         <div className='cursor-pointer h-full w-[4.5rem] rounded-full overflow-hidden'>
             <img src="./images/avatar.png" alt="" className='h-full w-full ' />
          </div> 
